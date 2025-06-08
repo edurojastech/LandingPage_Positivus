@@ -1,0 +1,9 @@
+.btn__dark {
+  background-color: #000;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  padding: 20px;
+  width: 200px;
+}
