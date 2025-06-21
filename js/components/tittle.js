@@ -14,7 +14,7 @@ const titles = [
 
 const classElement = document.querySelectorAll(".title__item")
 titles.map((item, index) => {
-  classElement[index].innerHTML =`
+  classElement[index].innerHTML = `
     <h2>${item.h2}</h2>
     <p>${item.p}</p>
   `
