@@ -1,0 +1,29 @@
+.title__item h2 {
+  background-color: #B9FF66;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 40px;
+  padding: 4px 12px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.title__item p {
+  width: 560px;
+  padding: 4px 12px;
+}
+
+.title__item {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+@media(max-width: 640px) {
+  .title__item {
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+  }
+}

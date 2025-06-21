@@ -1,0 +1,15 @@
+.empresas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 800px) {
+  .empresas{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}

@@ -23,19 +23,20 @@ a {
 
 
 @media(max-width: 620px) {
-  .padding__default {
+  .padding__default, section {
     padding: 10px 20px !important;
+    margin: 20px 0px !important;
   }
 }
 
 @media(max-width: 1920px) {
-  .padding__default {
+  .padding__default, section {
     padding: 20px 160px;
   }
 }
 
 @media(max-width: 1400px) {
-  .padding__default {
+  .padding__default, section {
     padding: 20px 60px;
   }
 }
