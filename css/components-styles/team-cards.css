@@ -1,0 +1,78 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 24px;
+  margin: auto;
+}
+
+.team-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 0 #111;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.image-wrapper {
+  background: #c5ff5e;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 12px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: ellipse(65% 55% at 50% 50%);
+}
+
+.image-wrapper img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.linkedin {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.team-card .role {
+  margin-top: 4px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.team-card hr {
+  margin: 12px auto;
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 80%;
+}
+
+.team-card .description {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.4;
+}

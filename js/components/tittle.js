@@ -14,6 +14,11 @@ const titles = [
   {
     h2: 'Our Working Process',
     p: 'Step-by-Step Guide to Achieving Your Business Goals'
+  },
+
+  {
+    h2: 'Team',
+    p: `Meet the skilled and experienced team behind our successful digital marketing strategies`
   }
 ]
 

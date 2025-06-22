@@ -2,6 +2,7 @@
 @import url('./components-styles/text-color.css');
 @import url('./components-styles/accordions.css');
 @import url('./components-styles/bg-colors.css');
+@import url('./components-styles/team-cards.css');
 
 * {
   margin: 0;
