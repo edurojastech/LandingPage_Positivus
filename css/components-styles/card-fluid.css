@@ -36,10 +36,14 @@
 
   .card__fluid__text p {
     width: 100%;
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .card__fluid__text {
     width: 100%;
+  }
+
+  .card__fluid__text h2 {
+    font-size: 24px;
   }
 }
