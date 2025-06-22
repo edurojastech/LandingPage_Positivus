@@ -23,9 +23,15 @@
   display: block;
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
+  width: 100px;
   text-align: center;
 }
+
+.links__list li a:hover {
+  background-color: #B9FF66;
+  transition: 1s;
+}
+
 
 
 @media (max-width: 800px) {
