@@ -1,8 +1,9 @@
 .card__fluid {
+  align-items: center;
   height: 360px;
   border-radius: 40px;
   display: flex;
-  padding:10px 60px;
+  padding: 30px 60px;
 }
 
 .card__fluid__text {
@@ -48,6 +49,9 @@
   }
 
   .card__fluid {
-    padding: 0 30px !important;
+    flex-direction: column;
+    height: 100%;
+    /* padding: 10px 30px !important;
+    padding: 0 30px !important; */
   }
 }

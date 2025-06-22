@@ -9,6 +9,11 @@ const titles = [
     h2: 'Case Studies', 
     p: `Explore Real-Life 
     Examples of Our Proven Digital Marketing Success through Our Case Studies` 
+  },
+
+  {
+    h2: 'Our Working Process',
+    p: 'Step-by-Step Guide to Achieving Your Business Goals'
   }
 ]
 
