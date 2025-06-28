@@ -13,3 +13,5 @@ brands.forEach(element => {
   img.src = `${element}`
   marcas.appendChild(img)
 });
+
+export default brands

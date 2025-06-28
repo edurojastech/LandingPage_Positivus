@@ -29,3 +29,5 @@ titles.map((item, index) => {
     <p>${item.p}</p>
   `
 }).join('')
+
+export default titles

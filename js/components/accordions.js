@@ -17,3 +17,5 @@ items.forEach(item => {
     btn.textContent = isActive ? '+' : '−';
   });
 });
+
+export default items
