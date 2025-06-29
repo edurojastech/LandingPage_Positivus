@@ -3,6 +3,7 @@
 @import url('./components-styles/accordions.css');
 @import url('./components-styles/bg-colors.css');
 @import url('./components-styles/team-cards.css');
+@import url('./testimonials.css');
 
 * {
   margin: 0;

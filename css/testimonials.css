@@ -1,0 +1,66 @@
+/* —— reset leve ————————————————————— */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* —— cores ————————————————————— */
+:root {
+  --bg: #0d0d12;          /* fundo geral */
+  --bubble-border: #9aff4d; /* verde neon do contorno */
+  --name: #9aff4d;        /* verde do nome */
+  --text: #ffffff;        /* texto principal */
+  --role: #9ea0a8;        /* cinza claro do cargo */
+}
+
+.testimonials__block {
+  background-color: #191A23;
+  width: 100%;
+  height: 560px;
+  border-radius: 48px;
+  padding: 40px;
+}
+
+/* —— componente principal ——————————— */
+.testimonial {
+  max-width: 740px;
+}
+
+/* balão de fala */
+.testimonial__bubble {
+  border: 2px solid var(--bubble-border);
+  border-radius: 24px;
+  padding: 2.5rem 2.75rem;
+  color: var(--text);
+  font-size: 1.05rem;
+  position: relative;
+}
+
+/* cauda do balão */
+.testimonial__bubble::after {
+  content: "";
+  position: absolute;
+  bottom: -26px;        /* ajusta a distância da cauda */
+  left: 80px;           /* posição horizontal da cauda */
+  width: 34px;
+  height: 26px;
+  /* background: var(--bg); */
+  /* border: 2px solid var(--bubble-border);
+  border-top: none;
+  border-right: none; */
+  border-bottom-left-radius: 6px;
+}
+
+/* nome + cargo */
+.testimonial__author {
+  margin-top: 2.8rem;
+}
+
+.testimonial__name {
+  color: var(--name);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.testimonial__role {
+  color: var(--role);
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}

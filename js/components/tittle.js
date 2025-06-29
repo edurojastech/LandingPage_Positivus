@@ -19,6 +19,11 @@ const titles = [
   {
     h2: 'Team',
     p: `Meet the skilled and experienced team behind our successful digital marketing strategies`
+  },
+
+  {
+    h2: 'Testimonials',
+    p: 'Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services'
   }
 ]
 
