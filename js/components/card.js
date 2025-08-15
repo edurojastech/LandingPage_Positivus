@@ -8,7 +8,7 @@ const cardRender = ({...props}) => {
         </div>
         <a class="card__link" href="${props.toGoUrl}">
           <img src="./assets/img/cards/${props.light ? 'icon-light' : 'icon'}.svg" alt="clicar">
-          <p style="color: ${props.light ? '#fff' : '#000'}">Lean More</p>
+          <p style="color: ${props?.light ? '#fff' : '#000'}">Lean More</p>
         </a>
       </div>
 
@@ -24,7 +24,8 @@ const cardsDesc = [
     imgUrl: "./assets/img/cards/img-3.svg", 
     toGoUrl: "#",
     firstTitle: 'Search engine',
-    secondTitle: 'optimization'
+    secondTitle: 'optimization',
+    light: false
   },
 
   {
@@ -33,7 +34,8 @@ const cardsDesc = [
     imgUrl: "./assets/img/cards/img-5.svg", 
     toGoUrl: "#",
     firstTitle: 'Pay-per-click',
-    secondTitle: 'optimization'
+    secondTitle: 'optimization',
+    light: false
   },
 
   {
@@ -52,7 +54,8 @@ const cardsDesc = [
     imgUrl: "./assets/img/cards/img-6.svg", 
     toGoUrl: "#",
     firstTitle: 'Email',
-    secondTitle: 'Marketing'
+    secondTitle: 'Marketing',
+    light: false
   },
 
   {
@@ -61,7 +64,27 @@ const cardsDesc = [
     imgUrl: "./assets/img/cards/img-4.svg", 
     toGoUrl: "#",
     firstTitle: 'Content',
-    secondTitle: 'Creation'
+    secondTitle: 'Creation',
+    light: false
+  },
+
+  {
+    bg: 'bg-dark', 
+    bgTitle: 'bg-white', 
+    imgUrl: "./assets/img/cards/img-2.svg", 
+    toGoUrl: "#",
+    firstTitle: 'Analytics and',
+    secondTitle: 'Tracking',
+    light: true
+  },
+   {
+    bg: 'bg-lemon', 
+    bgTitle: 'bg-lemon', 
+    imgUrl: "./assets/img/cards/img-4.svg", 
+    toGoUrl: "#",
+    firstTitle: 'Content',
+    secondTitle: 'Creation',
+    light: false
   },
 
   {
@@ -75,10 +98,14 @@ const cardsDesc = [
   }
 ]
 
+// const classElement = document.querySelectorAll(".cardElement")
+// cardsDesc.map((item, index) => {
+//   classElement[index].innerHTML = cardRender({...item})
+// }).join('')
 
-const classElement = document.querySelectorAll(".cardElement")
-cardsDesc.map((item, index) => {
-  classElement[index].innerHTML = cardRender({...item})
+const cardElement = document.getElementById("cards")
+cardElement.innerHTML = cardsDesc.map((item) => {
+  return cardRender({...item})
 }).join('')
 
 export default cardsDesc
