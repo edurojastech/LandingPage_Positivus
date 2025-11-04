@@ -3,11 +3,11 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
-  height:80px;
+  height: 80px;
 }
 
 .navbar__logo,
-.links__list  {
+.links__list {
   display: flex;
   height: 100%;
   align-items: center;
@@ -32,17 +32,26 @@
   transition: 1s;
 }
 
-
-
 @media (max-width: 800px) {
-  .navbar,.links__list {
+  .navbar {
     align-items: center;
     flex-direction: column;
     height: auto;
     gap: 10px;
+    max-width: 100%;
   }
 
-  .links__list li a, .navbar__logo {
-    width: 240px;
+  #linkList {
+    flex-direction: row;
+    gap: 8px;
+    width: 90vw;
+    overflow-x: scroll;
+    padding-bottom: 16px;
   }
+}
+
+.links__list li a,
+.navbar__logo {
+  width: 180px;
+  margin: auto;
 }
