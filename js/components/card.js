@@ -76,25 +76,6 @@ const cardsDesc = [
     firstTitle: 'Analytics and',
     secondTitle: 'Tracking',
     light: true
-  },
-   {
-    bg: 'bg-lemon', 
-    bgTitle: 'bg-lemon', 
-    imgUrl: "./assets/img/cards/img-4.svg", 
-    toGoUrl: "#",
-    firstTitle: 'Content',
-    secondTitle: 'Creation',
-    light: false
-  },
-
-  {
-    bg: 'bg-dark', 
-    bgTitle: 'bg-white', 
-    imgUrl: "./assets/img/cards/img-2.svg", 
-    toGoUrl: "#",
-    firstTitle: 'Analytics and',
-    secondTitle: 'Tracking',
-    light: true
   }
 ]
 
